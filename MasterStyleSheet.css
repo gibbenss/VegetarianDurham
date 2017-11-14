@@ -1,0 +1,32 @@
+html{
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+	background-color: lightgreen;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.box-link{
+	display: inline-grid;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border: 3px solid #73AD21;  
+
+
+	
+}
+
+#About{
+	background: url(https://blogs.city.ac.uk/informationservices/files/2016/09/code-first-girls-1f3p6vz.png) center center;
+	background-color: pink;
+}
