@@ -12,16 +12,53 @@ a{
 	text-decoration: none;
 	color: black;
 }
+a:link{
+	color: lightgreen;
+}
 
+a:visited{
+	color:green;
+}
+
+a:hover{
+	color:black;
+}
+
+
+
+/* these are taken from bootstrap, so this style sheet will override the bootstrap css file*/
 .box-link{
 	display: inline-grid;
     width: 300px;
     height: 300px;
     margin: 20px;
-    border: 3px solid #73AD21;  
 
+}
 
-	
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: darkgreen;
+  background-clip: border-box;
+  border: 10px;
+  border-radius: 0.25rem;
+}
+.card-img {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  max-width:300px;
+  max-height:300px;
+  width: auto;
+  height: auto;
+}
+
+.card-deck .card {
+  margin-bottom: 30px;
 }
 
 #About{
