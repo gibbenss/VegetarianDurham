@@ -47,6 +47,7 @@ a:hover{
   background-clip: border-box;
   border: 10px;
   border-radius: 0.25rem;
+  margin: 0 0 0 40px;
 }
 .card-img {
   border-top-left-radius: calc(0.25rem - 1px);
@@ -70,4 +71,14 @@ a:hover{
   margin:20px;
 }
 
+.card-title {
+  text-align: center;
+}
 
+.mb-0 {
+  font-size:17px;
+}
+
+.card-title1{
+  background: url(https://s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/06/23121029/pasta3.jpg);
+}
