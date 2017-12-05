@@ -1,16 +1,21 @@
+<link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+
 html{
 	box-sizing: border-box;
 }
 
 body{
-<<<<<<< HEAD
+
           font-family: neucha;
           color:white;
           margin: 0 auto;
           background-color: #232323;
         }
       
-=======
+
+	background-color: #232323;
+  font-family: neucha;
+
 }
 
 a{
@@ -27,15 +32,18 @@ a:hover{
 
 
 /* these are taken from bootstrap, so this style sheet will override the bootstrap css file*/
->>>>>>> 77d39c6cd5702e14be72f3389ab7ff13bfe8eb4c
 .box-link{
 	display: inline-grid;
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-
+  width: 300px;
+  height: 300px;
+  margin: 20px;
 }
-
+.nav-item{
+  padding: 15px;
+}
+.form-inline{
+  padding: 15px;
+}
 .card {
   position: relative;
   display: -ms-flexbox;
@@ -68,22 +76,15 @@ a:hover{
 	background-color: pink;
 }
 
-h1{
-  color: white;
-  
-  text-align: center;
-
-}
-
 h3 {
   display: inline-block;
   padding: 10px;
   color: white;
   background: black;
+
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-
 
 .carousel-item {
   height: 90vh;
@@ -110,33 +111,16 @@ h3 {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
+  text-shadow: 2px 2px 10px green;
   text-align: center;
 
   background: 
     linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 1)
+      rgba(144, 238, 144, 0),
+      rgba(144, 238, 144, 1)
     );
 }
 
 
 
-
-      .card-header{
-        font-size:50px;
-      } 
-      .card-body{
-      }
-.lead {
-  font-size: 1.25rem;
-  font-weight: 300;
-  color: white;
-}
-
-.jumbotron {
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  background-color: #232323;
-  border-radius: 0.3rem;
-}
