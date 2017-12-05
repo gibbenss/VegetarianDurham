@@ -2,8 +2,6 @@ html{
 	box-sizing: border-box;
 }
 
-
-
 body{
 	background-color: palegreen;
 }
@@ -19,8 +17,6 @@ a:visited{
 a:hover{
 	color:black;
 }
-
-
 
 
 /* these are taken from bootstrap, so this style sheet will override the bootstrap css file*/
