@@ -1,9 +1,12 @@
+<link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+
 html{
 	box-sizing: border-box;
 }
 
 body{
-	background-color: palegreen;
+	background-color: #232323;
+  font-family: neucha;
 }
 
 a{
@@ -22,12 +25,16 @@ a:hover{
 /* these are taken from bootstrap, so this style sheet will override the bootstrap css file*/
 .box-link{
 	display: inline-grid;
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-
+  width: 300px;
+  height: 300px;
+  margin: 20px;
 }
-
+.nav-item{
+  padding: 15px;
+}
+.form-inline{
+  padding: 15px;
+}
 .card {
   position: relative;
   display: -ms-flexbox;
