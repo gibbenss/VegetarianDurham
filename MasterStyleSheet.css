@@ -5,7 +5,7 @@ html{
 
 
 body{
-	background-color: lightgreen;
+	background-color: palegreen;
 }
 
 a{
@@ -44,6 +44,7 @@ a:hover{
   background-clip: border-box;
   border: 10px;
   border-radius: 0.25rem;
+  margin: 0 0 0 px;
 }
 .card-img {
   border-top-left-radius: calc(0.25rem - 1px);
@@ -105,11 +106,6 @@ h3 {
       rgba(144, 238, 144, 0),
       rgba(144, 238, 144, 1)
     );
-}
-
-
-.col-sm-5 {
-  margin:20px;
 }
 
 
