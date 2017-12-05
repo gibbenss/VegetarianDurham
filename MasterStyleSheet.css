@@ -2,15 +2,33 @@ html{
 	box-sizing: border-box;
 }
 
-
-
 body{
+<<<<<<< HEAD
           font-family: neucha;
           color:white;
           margin: 0 auto;
           background-color: #232323;
         }
       
+=======
+	background-color: palegreen;
+}
+
+a{
+  color: white;
+}
+
+a:visited{
+	color:green;
+}
+
+a:hover{
+	color:black;
+}
+
+
+/* these are taken from bootstrap, so this style sheet will override the bootstrap css file*/
+>>>>>>> 77d39c6cd5702e14be72f3389ab7ff13bfe8eb4c
 .box-link{
 	display: inline-grid;
     width: 300px;
